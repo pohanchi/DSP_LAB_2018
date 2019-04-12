@@ -1,0 +1,52 @@
+\documentclass[15pt]{article}
+\begin{document}
+\noindent
+\textbf{\begin{center}
+{{\huge DSP Lab  1\\}}
+\end{center}}
+\noindent
+\begin{center}
+{\textbf{{\Large 104061171 Po-Han,Chi\\}}}
+\end{center}
+\textbf{\begin{center}
+{\Large September 13,2018}
+\end{center}}
+\begin{flushleft}
+\begin{normalsize}
+1.See the Arduino training manual and finish the labs till class 7.
+\end{normalsize}
+\end{flushleft}
+\noindent
+\begin{normalsize}
+\begin{flushleft}
+2. If the diameter of a network with 100 nodes is 2, what is the
+minimum number of links in this network?
+\end{flushleft}
+\end{normalsize}
+the two node maximum geodesic distance is $2$,which means its graph is a node in center and others surround it.so the minimum number of links is \\
+\begin{center}
+ $100-1=99$
+ \end{center} 
+\noindent
+\begin{flushleft}
+\begin{normalsize}
+3. For a network of 100 nodes, if the degree of every node is at most
+2, what is the minimum diameter of that network?
+\end{normalsize}
+\end{flushleft}
+For example,if a network have 4 node with this degree limit,its diameter is 2.Another example is that,if a network have 5 node with this degree condition ,its diameter is 2.
+Because of this limit,all node of the network would become a likely circle if the number of its node is increasily.
+So,the answer is \\
+\begin{center}
+$100\div2=50$
+\end{center}
+\noindent
+\begin{flushleft}
+\begin{normalsize}
+4. For a network of 100 nodes, if the degree of every node is at most
+3, is it possible that the diameter of this network is not greater
+than 5?
+\end{normalsize}
+\end{flushleft}
+No,it is impossible.Because if a node have limit at most 3,it would like a binary tree. But if a binary tree have 4 layer,the most left side node and the most right side node have a distance is 6 which is larger than 5 ,and it only take 15 node. so it's impossible.
+\end{document}
