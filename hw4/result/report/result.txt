@@ -1,0 +1,18 @@
+			    	Precision 		 TP		    FP 		FN 	
+100.txt_first_row:		99.96%		2271		1		1	
+103.txt_first_row:		100.0%		2079		0		5	
+112.txt_first_row:		100.0%		2539		0		0	
+117.txt_first_row:		98.31%		1509		26		26	
+122.txt_first_row:		100.0%		2476		0		0	
+
+107.txt_first_row:		99.28%		2077		15		60	
+114.txt_first_row:		56.88%		62			47		1776	
+119.txt_first_row:		99.95%		1986		1		1	
+205.txt_first_row:		99.81%		2574		5		82	
+219.txt_first_row:		100.0%		2095		0		59	
+
+108.txt_first_row:		93.84%		609			40		1053	
+203.txt_first_row:		43.85%		82			105		2877	
+210.txt_first_row:		99.86%		2195		3		454	
+222.txt_first_row:		99.89%		1760		2		723	
+230.txt_first_row:		99.96%		2239		1		17	
